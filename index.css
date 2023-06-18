@@ -1,0 +1,81 @@
+body {
+  background-color: rgb(73, 76, 126);
+  margin: 0;
+  font-family: Geologica;
+}
+
+.main {
+  background-color: 6943FF;
+  width: 550px;
+  height: 285px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding-top: 25px;
+}
+
+#convert-value {
+  display: block;
+  margin: 0 auto;
+  width: 117px;
+  height: 83px;
+  text-align: center;
+  background-color: 6943FF;
+  border: groove white;
+  border-width: thin;
+  border-radius: 5px;
+  color: white;
+  font-size: 65px;
+  font-weight: bold;
+  margin-top: 35px;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 25px;
+  width: 117px;
+  height: 42px;
+  border-radius: 6px;
+  border: none;
+}
+
+.under-main {
+  background-color: 1F2937;
+  width: 550px;
+  height: 444px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 23px;
+}
+
+.unit {
+  color: white;
+  width: 500px;
+  height: 108.57px;
+  background-color: 273549;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 33px;
+  border-radius: 5px;
+}
+
+.units {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  padding-top: 22px;
+}
+
+.render {
+  text-align: center;
+}
+
+textarea:focus,
+input:focus {
+  outline: none;
+}

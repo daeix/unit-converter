@@ -4,6 +4,10 @@ let calcOne = document.getElementById("empty-1");
 let calcTwo = document.getElementById("empty-2");
 let calcThree = document.getElementById("empty-3");
 
+convs.addEventListener("input", function () {
+  btn.disabled = convs.value === "";
+});
+
 document.getElementById("btn").addEventListener("click", function convertAll() {
   let convAll = document.getElementById("convert-value").value;
   calcOne.textContent = "";

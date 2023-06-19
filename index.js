@@ -3,6 +3,7 @@
 let calcOne = document.getElementById("empty-1");
 let calcTwo = document.getElementById("empty-2");
 let calcThree = document.getElementById("empty-3");
+let convs = document.getElementById("convert-value");
 
 convs.addEventListener("input", function () {
   btn.disabled = convs.value === "";
